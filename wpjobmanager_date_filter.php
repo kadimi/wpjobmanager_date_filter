@@ -28,7 +28,7 @@ function wpjobmanager_date_filter_fields () {
 		</div>
 	</div>
 
-​	<script>
+	<script>
 		jQuery( document ).ready( function( $ ) {
 
 			$( '#search_date_from,#search_date_to' )
