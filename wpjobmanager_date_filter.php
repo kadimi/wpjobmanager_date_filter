@@ -80,7 +80,7 @@ function filter_by_date_query_args( $query_args, $args ) {
 
 			if ( $date ) {
 
-				$query_args[ 'date_query' ]['after'] = array(
+				$query_args[ 'date_query' ]['before'] = array(
 					'month' => $date[ 'month' ],
 					'day'   => $date[ 'day' ],
 					'year'  => $date[ 'year' ],
